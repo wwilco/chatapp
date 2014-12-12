@@ -1,4 +1,5 @@
-var ws = new WebSocket("ws://localhost:3000");
+//var ws = new WebSocket("ws://localhost:3000");
+var ws = new WebSocket("ws://will.princesspeach.nyc:3000");
 var username = prompt("gimme yo name").trim();
 var usercolor = prompt("gimme yo color");
 var body=document.querySelector("body");
